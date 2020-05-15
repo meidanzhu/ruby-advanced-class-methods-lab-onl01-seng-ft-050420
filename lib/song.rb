@@ -45,7 +45,8 @@ class Song
     artist = title[0]
     song_name, extension = title[1].split(".")
     song = self.new
-    song.artist_name = artist 
+    song.artist_name = artist
+    song.name = song.name 
     song
   end
 
